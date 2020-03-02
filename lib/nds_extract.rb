@@ -8,7 +8,7 @@ def gross_for_director(director_data)
   index = 0
   total += d[:movies][index][:worldwide_gross]
     index += 1
-   end
+  end
    total
 end
 
